@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parentDiv{
+    background-color: #4C4C6D;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.childDiv{
+    max-width: 100%;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 200px;
+    padding: 30px;
+}
+
+button{
+    font-size: 1rem;
+    padding: 5px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #FFA900;
+}
+
